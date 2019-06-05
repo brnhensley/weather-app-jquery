@@ -1,1 +1,31 @@
-/* Styles go here */
+body {
+  background-image: url("https://images.unsplash.com/photo-1557238236-d4fa6f18b32a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
+    /* background-blend-mode: multiply;
+    background-color: #3D3A39; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .jumbotron h1, em {
+    opacity: 0.80;
+  }
+
+  .jumbotron {
+    background: rgba(61, 58, 57, 0.75);
+  }
+
+  .btn {
+    margin-bottom: 5px;
+    background: rgba(61, 58, 57, 0.75);
+  }
+
+  label, input {
+      display: inline-block;
+      vertical-align: baseline;
+    }
+
+  input {
+    margin-bottom: 10px;
+  }
