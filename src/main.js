@@ -15,7 +15,7 @@ $(document).ready(function() {
     let promise = weatherService.getWeatherByCity(city);
 
     promise.then(function(response) {
-      body = JSON.parse(response);
+      let body = JSON.parse(response);
       $('.showHumidity').text(`The humidity in ${city} is ${body.main.humidity}%`);
       $('.showTemp').text(`The temperature in Kelvins is ${body.main.temp} degrees.`);
     }, function(error) {
